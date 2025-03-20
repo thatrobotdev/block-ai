@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Block AI",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Blocks AI features on websites.",
     "content_scripts": [
         {
