@@ -12,7 +12,8 @@
     "lint:firefox": "npm run build && web-ext lint --source-dir build/firefox/",
     "start": "npm run start:firefox",
     "start:firefox": "npm run build && web-ext run --source-dir build/firefox/ --firefox",
-    "start:chrome": "npm run build && web-ext run --source-dir build/chrome/ --target chromium"
+    "start:chrome": "npm run build && web-ext run --source-dir build/chrome/ --target chromium",
+    "publish:firefox": "npm run build && web-ext build --source-dir build/firefox/ --overwrite-dest"
   },
   "devDependencies": {
     "jsonc-parser": "^3.3.1",

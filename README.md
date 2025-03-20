@@ -9,49 +9,60 @@ A browser extension that blocks AI features on websites.
 - <https://google.com> and [all Google search domains](https://www.google.com/supported_domains).
 - <https://duckduckgo.com>
 
-## Build instructions
+## Build Instructions
 
-### Building the extension
+Tested with **Node v22.12.0** (npm v11.2.0).
 
-Tested with node v22.12.0
+### Installation
 
-1. Install all of the dependencies in the project.
+Install all of the dependencies in the project.
 
-    ```sh
-    npm install
-    ```
+```sh
+npm install
+```
 
-2. Build the extension to the `build/chrome` and `build/firefox` directories
+---
 
-    ```sh
-    npm run build
-    ```
+### Usage
 
-### Testing the extension
+### 🔨 Build
 
-#### Linting
+Compile an unpacked extension for Chrome and Firefox to the `build/chrome` and `build/firefox` directories:
 
-##### Firefox
+```sh
+npm run build
+```
+
+### ✅ Validation
+
+Run automated validation tests (Firefox only):
 
 ```sh
 npm run lint:firefox
 ```
 
-##### Chrome
-Not yet supported.
+### 🚀 Running
 
-#### Running
+Start the extension in development mode:
 
-##### Chrome
+#### Chrome
 
 ```sh
 npm run start:chrome
 ```
 
-##### Firefox
+#### Firefox
 
 ```sh
 npm run start:firefox
+```
+
+### 📦 Publishing
+
+Build a production-ready version for Firefox:
+
+```sh
+npm run publish:firefox
 ```
 
 ## License
