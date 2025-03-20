@@ -1,0 +1,10 @@
+/* Hide DuckDuckGo Chat links */
+a[href*="duckduckgo.com"][href*="ia=chat"] {
+    display: none !important;
+}
+
+/* Hide Assist answer in search results */
+
+[data-react-module-id="wikinlp"] {
+    display: none!important;
+}

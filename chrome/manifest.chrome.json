@@ -1,0 +1,28 @@
+{
+  "author": "James Kerrane",
+  "homepage_url": "https://www.jameskerrane.com/block-ai",
+  "background": {
+    "service_worker": "service_worker.js",
+    "type": "module"
+  },
+  "icons": {
+    /*
+      Chrome doesn't support SVG icons
+      See https://issues.chromium.org/41057033
+    */
+    "16": "icons/ai_off_dark16.png",
+    "32": "icons/ai_off_dark32.png",
+    "48": "icons/ai_off_dark48.png",
+    "64": "icons/ai_off_dark64.png",
+    "128": "icons/ai_off_dark128.png"
+  },
+  // Google Chrome emits an "Invalid match pattern" error if the pattern has a path other than '/*', so we need to use '/*' instead of '/'
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "http://duckduckgo.com/*",
+        "https://duckduckgo.com/*"
+      ]
+    }
+  ]
+}

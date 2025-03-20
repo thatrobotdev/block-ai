@@ -1,0 +1,41 @@
+{
+  // Firefox does not support service_worker, so we need to use background instead. See https://bugzilla.mozilla.org/show_bug.cgi?id=1573659
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  // https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/developer#browser_compatibility
+  "developer": {
+    "name": "James Kerrane",
+    "url": "https://www.jameskerrane.com/block-ai"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "block-ai@jameskerrane.com",
+      "strict_min_version": "121.0"
+    }
+  },
+  "icons": {
+    // SVG icons only supported in Firefox 92+ (https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/icons#browser_compatibility)
+    "32": "icons/ai_off_dark.svg",
+    "64": "icons/ai_off_dark.svg"
+  },
+  "action": {
+    // SVG icons are not supported in Chrome, Edge, Opera, Safari, Safari on iOS (https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/action#browser_compatibility)
+    "default_icon": "icons/ai_off_dark.svg",
+    // Only supported in Firefox 109+ (https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/action#browser_compatibility)
+    "theme_icons": [
+      {
+        "light": "icons/ai_off_dark.svg",
+        "dark": "icons/ai_off_light.svg",
+        "size": 16
+      },
+      {
+        "light": "icons/ai_off_dark.svg",
+        "dark": "icons/ai_off_light.svg",
+        "size": 32
+      }
+    ]
+  }
+}

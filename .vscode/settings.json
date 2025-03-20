@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        /*
+            Comments are automatically stripped out on build,
+            so we can add comments to JSON files without any
+            issues.
+        */
+        "manifest.common.json": "jsonc",
+        "manifest.chrome.json": "jsonc",
+        
+        // Comments are supported in Firefox manifest files per https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json
+        "manifest.firefox.json": "jsonc",
+        "**/build/firefox/manifest.json": "jsonc"
+    },
+    "svg.preview.background": "editor"
+}

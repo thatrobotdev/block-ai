@@ -1,0 +1,4 @@
+/* Hide Duck.ai Chat link */
+a[href="https://duck.ai"] {
+    display: none!important;
+}
