@@ -9,7 +9,6 @@
   "type": "commonjs",
   "scripts": {
     "build": "node build.mjs",
-    "css:lint": "stylelint '**/*.scss'",
     "lint:firefox": "npm run build && web-ext lint --source-dir build/firefox/",
     "start": "npm run start:firefox",
     "start:firefox": "npm run build && web-ext run --source-dir build/firefox/ --firefox",
