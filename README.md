@@ -1,4 +1,6 @@
-# Block AI
+# ![Block AI Logo](firefox/icons/ai_off_light.svg) Block AI
+
+[<img src=".github/firefox-get-add-on.svg" width="129" height="45">](https://addons.mozilla.org/firefox/addon/block-ai)
 
 A browser extension that blocks AI features on websites such as AI-assisted search results and chat.
 
@@ -87,3 +89,7 @@ The logo, located in the following directories:
 - [`firefox/icons`](firefox/icons)
 
 is the "Search Off" icon from Material Symbols by Google, which are licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html). The license is distributed alongside the icons in their respective folders and on extension build.
+
+The Firefox "Get the add-on" button, located at [`.github/firefox-get-add-on.svg`](.github/firefox-get-add-on.svg), is a branded asset and should be used in accordance with [Mozilla’s Trademark Guidelines](https://www.mozilla.org/en-US/foundation/trademarks/policy/).
+
+Mozilla, Firefox, and the Firefox logo are trademarks of the Mozilla Foundation in the U.S. and other countries. All rights are reserved by their respective authors.
