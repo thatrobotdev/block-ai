@@ -8,9 +8,12 @@
   "scripts": {
     "build": "web-ext build --source-dir src/ --overwrite-dest",
     "lint": "web-ext lint --source-dir src/",
-    "start": "web-ext run --source-dir src/ --firefox"
+    "start": "web-ext run --source-dir src/ --firefox",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "devDependencies": {
+    "all-contributors-cli": "^6.26.1",
     "web-ext": "^8.4.0"
   }
 }
