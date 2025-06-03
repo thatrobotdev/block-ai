@@ -13,8 +13,6 @@ A browser extension that blocks AI features on websites such as AI-assisted sear
 
 Block AI puts you in control, letting you decide when AI helps and when it gets in the way.
 
-[Homepage](https://www.jameskerrane.com/block-ai)
-
 ## Supported Sites
 
 * Google Search
@@ -43,7 +41,7 @@ npm install
 
 ### 🔨 Build
 
-Compile an unpacked extension for Chrome and Firefox to the `build/chrome` and `build/firefox` directories:
+Compile a packed extension to the `web-ext-artifacts` directory:
 
 ```sh
 npm run build
@@ -51,46 +49,36 @@ npm run build
 
 ### ✅ Validation
 
-Run automated validation tests (Firefox only):
+Run automated validation tests:
 
 ```sh
-npm run lint:firefox
+npm run lint
 ```
 
 ### 🚀 Running
 
 Start the extension in development mode:
 
-#### Chrome
-
 ```sh
-npm run start:chrome
+npm run start
 ```
 
-#### Firefox
+## Contributors
 
-```sh
-npm run start:firefox
-```
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 
-### 📦 Publishing
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
-Build a production-ready version for Firefox:
-
-```sh
-npm run publish:firefox
-```
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
 
 This extension is licensed under the MIT License, [which you can read here](LICENSE).
 
-The logo, located in the following directories:
-
-- [`chrome/icons`](chrome/icons)
-- [`firefox/icons`](firefox/icons)
-
-is the "Search Off" icon from Material Symbols by Google, which are licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html). The license is distributed alongside the icons in their respective folders and on extension build.
+The logo, located in `src/icons`, is the "Search Off" icon from Material Symbols by Google, which are licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html). The license is distributed alongside the icons in their respective folders and on extension build.
 
 The Firefox "Get the add-on" button, located at [`.github/firefox-get-add-on.svg`](.github/firefox-get-add-on.svg), is a branded asset and should be used in accordance with [Mozilla’s Trademark Guidelines](https://www.mozilla.org/en-US/foundation/trademarks/policy/).
 
