@@ -409,12 +409,13 @@
         },
         {
             "matches": [
-                "https://amazon.com/*",
-                "https://amazon.ca/*"
+                "https://www.amazon.com/*",
+                "https://www.amazon.ca/*"
             ],
             "css": [
                 "amazonReviews.css"
-            ]
+            ],
+            "run_at": "document_end"
         }
     ],
     "action": {
