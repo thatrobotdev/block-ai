@@ -22,6 +22,8 @@ Block AI puts you in control, letting you decide when AI helps and when it gets 
 * DuckDuckGo
   * Blocks AI Assist.
   * Hides links to Duck.ai on the homepage.
+* Amazon
+  * Hides AI overview of user reviews.
 
 ## Build Instructions
 

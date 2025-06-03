@@ -1,0 +1,2 @@
+/* Hides "Customers say..." widget that appears at the top of customer reviews.*/
+[cel_widget_id="cr-product-insights_customer-reviews-product-insights_0"] {display:none !important;}
