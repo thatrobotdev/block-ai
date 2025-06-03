@@ -15,6 +15,18 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "thatrobotdev",
+      "name": "James Kerrane",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18013689?v=4",
+      "profile": "https://github.com/thatrobotdev",
+      "contributions": [
+        "code",
+        "doc",
+        "design",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
