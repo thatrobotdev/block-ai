@@ -1,22 +1,16 @@
 {
   "name": "block-ai",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "repository": "thatrobotdev/block-ai",
   "license": "MIT",
-  "main": "build.mjs",
-  "type": "commonjs",
   "scripts": {
-    "build": "node build.mjs",
-    "lint:firefox": "npm run build && web-ext lint --source-dir build/firefox/",
-    "start": "npm run start:firefox",
-    "start:firefox": "npm run build && web-ext run --source-dir build/firefox/ --firefox",
-    "start:chrome": "npm run build && web-ext run --source-dir build/chrome/ --target chromium",
-    "publish:firefox": "npm run build && web-ext build --source-dir build/firefox/ --overwrite-dest"
+    "build": "web-ext build --source-dir src/ --overwrite-dest",
+    "lint": "web-ext lint --source-dir src/",
+    "start": "web-ext run --source-dir src/ --firefox"
   },
   "devDependencies": {
-    "jsonc-parser": "^3.3.1",
     "web-ext": "^8.4.0"
   }
 }

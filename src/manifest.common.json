@@ -5,7 +5,7 @@
     "description": "Blocks AI features on websites.",
     "content_scripts": [
         {
-            // Source: https://www.google.com/supported_domains
+            
             "matches": [
                 "http://www.google.com/*",
                 "https://www.google.com/*",
