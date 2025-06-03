@@ -406,6 +406,15 @@
                 "duckduckgoSearch.css"
             ],
             "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "https://amazon.com/*",
+                "https://amazon.ca/*"
+            ],
+            "css": [
+                "amazonReviews.css"
+            ]
         }
     ],
     "action": {
