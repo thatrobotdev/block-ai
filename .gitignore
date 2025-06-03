@@ -1,5 +1,4 @@
 ## Custom rules
-build/
 web-ext-artifacts
 
 ## Node.gitignore (https://github.com/github/gitignore/blob/main/Node.gitignore)

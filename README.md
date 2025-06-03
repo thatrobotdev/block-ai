@@ -18,13 +18,13 @@ Block AI puts you in control, letting you decide when AI helps and when it gets 
 
 ## Supported Sites
 
-* Google Search
-  * Blocks AI Overview.
+* Amazon
+  * Hides AI overview of user reviews.
 * DuckDuckGo
   * Blocks AI Assist.
   * Hides links to Duck.ai on the homepage.
-* Amazon
-  * Hides AI overview of user reviews.
+* Google
+  * Blocks AI Overview.
 
 ## Build Instructions
 

@@ -1,10 +1,8 @@
 # Changelog
 
-Block AI adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html).
+Block AI adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html). All versions are released following approval from [AMO](https://addons.mozilla.org/en-US/firefox/).
 
-## v0.0.2 Pre-release
-
-This version will be released following approval from [AMO](https://addons.mozilla.org/en-US/firefox/).
+## v0.0.2
 
 ### Added
 
