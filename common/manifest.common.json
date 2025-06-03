@@ -408,9 +408,32 @@
             "run_at": "document_end"
         },
         {
+            // Source: https://www.amazon.com/customer-preferences/country
             "matches": [
-                "https://www.amazon.com/*",
-                "https://www.amazon.ca/*"
+                "https://www.amazon.com.au/*", // Australia 
+                "https://www.amazon.com.be/*", // Belgium (Belgique)
+                "https://www.amazon.com.br/*", // Brazil (Brasil)
+                "https://www.amazon.ca/*", // Canada
+                "https://www.amazon.cn/*", // China (中国)
+                "https://www.amazon.eg/*", // Egypt (مصر) 
+                "https://www.amazon.fr/*", // France
+                "https://www.amazon.de/*", // Germany (Deutschland)
+                "https://www.amazon.in/*", // India
+                "https://www.amazon.ie/*", // Ireland
+                "https://www.amazon.it/*", // Italy (Italia)
+                "https://www.amazon.co.jp/*", // Japan (日本)
+                "https://www.amazon.com.mx/*", // Mexico (México)
+                "https://www.amazon.nl/*", // Netherlands (Nederland)
+                "https://www.amazon.pl/*", // Poland (Polska)
+                "https://www.amazon.sa/*", // Saudi Arabia (المملكة العربية السعودية)
+                "https://www.amazon.sg/*", // Singapore
+                "https://www.amazon.co.za/*", // South Africa
+                "https://www.amazon.es/*", // Spain (España)
+                "https://www.amazon.se/*", // Sweden (Sverige)
+                "https://www.amazon.com.tr/", // Turkey (Türkiye)
+                "https://www.amazon.ae/", // United Arab Emirates
+                "https://www.amazon.co.uk/", // United Kingdom
+                "https://www.amazon.com/*" // United States
             ],
             "css": [
                 "amazonReviews.css"
