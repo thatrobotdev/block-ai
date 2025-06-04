@@ -1,10 +1,14 @@
-/* Hide DuckDuckGo Chat links */
-a[href*="duckduckgo.com"][href*="ia=chat"] {
+/* Hide "Duck.ai" badge under search bar. */
+a[href$="ia=chat"] {
     display: none !important;
 }
 
-/* Hide Assist answer in search results */
-
+/* Hide "Assist" answer in search results */
 [data-react-module-id="wikinlp"] {
-    display: none!important;
+    display: none !important;
+}
+
+/* Hide "Assist" badge above search results */
+span:has(> a[class="Pd_jmhkZzftl0UtTaw0u ZFhB90WXqZWEUauhKB3l FjSJqhByQmoYMVscUoQe VssOcyhy47YNtTsYTdr0 wZ4JdaHxSAhGy1HoNVja d26Geqs1C__RaCO7MUs2"]) {
+    display: none !important;
 }
