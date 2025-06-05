@@ -1,9 +1,4 @@
-/* 
-    Hide Google's AI "AI Overview"
-
-    has() selector supported on Firefox 121+, Chrome 105+.
-    See https://developer.mozilla.org/en-US/docs/Web/CSS/:has#browser_compatibility
-*/
-div:has(> #m-x-content) {
-    display: none;
+/* Hide Google's AI "AI Overview" */
+[class="q8sySb"] {
+    display: none !important;
 }
